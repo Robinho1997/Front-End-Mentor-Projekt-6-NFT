@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@300;500;600&display=swap');
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: outfit;
+}
+
+
+.container {
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 30px;
+    padding: 1.2em;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 10px 10px 10px 10px hsl(217, 88%, 10%);
+    
+}
+
+.großes-bild {
+    width: 100%;
+    border-radius: 20px;
+   
+}
+
+
+
+.hover-container:hover {
+   -webkit-filter: brightness(2);
+    
+}
+
+
+
+
+
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    
+}
+
+.small-flex {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    
+}
+
+.color-aqua {
+    color: aqua;
+}
+
+.color-darkish {
+   
+    color: hsl(215, 51%, 70%)
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    border-top-style: solid;
+    padding-top: 1em;
+    border-top-width: 0.1em;
+    border-color:hsl(215, 51%, 70%) ;
+    gap: 0.5em;
+    
+}
+
+.avatar {
+    width: 10%;
+    border: solid;
+    border-radius: 30px;
+    border-width: 0.1em;
+    margin-right: 0.5em;
+}
+
+
+
+
+h1:hover {
+    color:  aqua;
+}
+
+.hover:hover {
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+.container {
+    width: 80%;
+}
+
+}
